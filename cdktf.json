@@ -1,0 +1,13 @@
+{
+  "language": "typescript",
+  "app": "npm run --silent compile && node main.js",
+  "projectId": "b128046e-00aa-4e6d-9e04-75b3cac8ee3e",
+  "terraformProviders": [
+    "terraform-providers/docker@~> 2.0"
+  ],
+  "terraformModules": [],
+  "context": {
+  "excludeStackIdFromLogicalIds": "true",
+  "allowSepCharsInLogicalIds": "true"
+  }
+}
