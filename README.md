@@ -6,6 +6,7 @@ First, you will need a `.env` file with the following values:
 ```
 AWS_ACCESS_KEY_ID=<YourAccessKey>
 AWS_SECRET_ACCESS_KEY=<YourSecretKey>
+AWS_REGION=<YourAWSRegion>
 ```
 
 Then you can install dependencies for node and `cdktf` deployment:
